@@ -4,7 +4,7 @@ This project is an animated authentication system built with TypeScript, React, 
 
 ## 🚀 Live Demo
 
-🔗 [Live URL](https://authentication-tau-three.vercel.app/dashboard)
+🔗 [Live URL](https://authentication-tau-three.vercel.app)
 
 ## 📌 Features
 
@@ -44,22 +44,6 @@ npm run dev
 
 The application will be available at `http://localhost:5173/` by default.
 
-## 🏗️ Project Structure
-
-```
-📦 authentication
-├── 📂 src
-│   ├── 📂 components  # Reusable UI components
-│   ├── 📂 pages       # Login, Register, and Dashboard pages
-│   ├── 📂 utils       # Utility functions (e.g., validation)
-│   ├── 📜 App.tsx     # Main App component
-│   ├── 📜 index.tsx   # React entry point
-│   ├── 📜 styles.css  # Global styles
-├── 📜 package.json    # Dependencies & scripts
-├── 📜 README.md       # Project documentation
-└── ...
-```
-
 ## 📜 Usage
 
 1. **Register a new user** with a valid `@gmail.com` email.
@@ -70,7 +54,6 @@ The application will be available at `http://localhost:5173/` by default.
 
 - **React (TypeScript)** ⚛️
 - **Tailwind CSS** 🎨
-- **GSAP (for animations)** ✨
 - **Local Storage (for user data storage)** 🗄️
 
 ## 📌 Future Improvements
@@ -79,11 +62,6 @@ The application will be available at `http://localhost:5173/` by default.
 - Enhanced UI with more animations
 - Multi-theme support
 
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
 
 Developed with ❤️ by [Laksh Sharda](https://github.com/lakshsharda)
 
