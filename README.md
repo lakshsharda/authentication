@@ -1,69 +1,89 @@
-# Welcome to your Lovable project
+# Animated Login and Registration Page
 
-## Project info
+This project is an animated authentication system built with TypeScript, React, and Tailwind CSS. It features smooth UI transitions, responsive design, and user authentication stored in local storage.
 
-**URL**: https://lovable.dev/projects/85e3003f-c901-410c-bb44-ee8cff235bf1
+## 🚀 Live Demo
 
-## How can I edit this code?
+🔗 [Live URL](https://authentication-tau-three.vercel.app/dashboard)
 
-There are several ways of editing your application.
+## 📌 Features
 
-**Use Lovable**
+- **Login Page**: Animated login form with email validation.
+- **Registration Page**: Smooth animations and input validation.
+- **Normal Page**: Simple static page after login/registration.
+- **Email Validation**: Only emails ending with `@gmail.com` are allowed.
+- **Password Handling**: Passwords are masked for security.
+- **Responsive Design**: Fully mobile-friendly UI.
+- **Error Handling**: Displays appropriate messages for invalid inputs.
+- **Form Submission**: Simulated submission process with local storage.
+- **No Page Reloads**: Implemented using React state management.
+- **Modern UI**: Styled using Tailwind CSS.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/85e3003f-c901-410c-bb44-ee8cff235bf1) and start prompting.
+## 🎯 Bonus Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Dark Mode Support** 🌙
+- **Password Strength Validation** 🔐
+- **Smooth Page Transitions** using GSAP
+- **Creative UI Enhancements**
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+## 🛠️ Installation & Setup
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone https://github.com/lakshsharda/authentication.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project folder
+cd authentication
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Run the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173/` by default.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🏗️ Project Structure
 
-**Use GitHub Codespaces**
+```
+📦 authentication
+├── 📂 src
+│   ├── 📂 components  # Reusable UI components
+│   ├── 📂 pages       # Login, Register, and Dashboard pages
+│   ├── 📂 utils       # Utility functions (e.g., validation)
+│   ├── 📜 App.tsx     # Main App component
+│   ├── 📜 index.tsx   # React entry point
+│   ├── 📜 styles.css  # Global styles
+├── 📜 package.json    # Dependencies & scripts
+├── 📜 README.md       # Project documentation
+└── ...
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📜 Usage
 
-## What technologies are used for this project?
+1. **Register a new user** with a valid `@gmail.com` email.
+2. **Login using the registered credentials**.
+3. **Access the dashboard** after successful authentication.
 
-This project is built with .
+## 🛡️ Technologies Used
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **React (TypeScript)** ⚛️
+- **Tailwind CSS** 🎨
+- **GSAP (for animations)** ✨
+- **Local Storage (for user data storage)** 🗄️
 
-## How can I deploy this project?
+## 📌 Future Improvements
 
-Simply open [Lovable](https://lovable.dev/projects/85e3003f-c901-410c-bb44-ee8cff235bf1) and click on Share -> Publish.
+- Integration with an actual backend (SQL database)
+- Enhanced UI with more animations
+- Multi-theme support
 
-## I want to use a custom domain - is that possible?
+## 📄 License
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+Developed with ❤️ by [Laksh Sharda](https://github.com/lakshsharda)
+
